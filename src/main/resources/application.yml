@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/lk
+      uri: mongodb://root:123456@47.97.90.166:27017/test
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: org.h2.Driver

@@ -15,7 +15,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @NoArgsConstructor
 @Document("user")
 public class User {
-    Long id;
-    String userName;
-    String password;
+    private Long id;
+    private String userName;
+    private String password;
 }
